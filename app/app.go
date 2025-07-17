@@ -17,7 +17,7 @@ func Gerar() *cli.App {
 	flags := []cli.Flag{
 		&cli.StringFlag{
 			Name:  "host",
-			Value: "devbook.com.br",
+			Value: "felipepfranco.com.br",
 			Usage: "Host a ser buscado",
 		},
 	}
